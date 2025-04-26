@@ -104,7 +104,7 @@ function createVolumeSlider() {
 
 function createRecipeButtons() {
   let x = 300;
-  let y = 650; // buttons placed below canvas
+  let y = 650; 
   let index = 0;
   for (let recipe in recipes) {
     let btn = createButton(recipe);
